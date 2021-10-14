@@ -22,6 +22,8 @@ int main(void){
     printf("\n");
 
     for(i=0; i<arr2len; i++)
-    printf("%d ", arr2[i]);
+    printf("%d ", arr3[i]);
     printf("\n");
+
+    return 0;
 }
