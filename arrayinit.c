@@ -7,7 +7,7 @@ int main(void){
     int arr3[5]={1,2};
     int arr1len, arr2len, arr3len, i;
 
-    printf("arr1의 크기: %d \n", sizeof(arr1));
+    printf("arr1의 크기: %lu \n", sizeof(arr1));
 
     arr1len = sizeof(arr1) / sizeof(int);
     arr2len = sizeof(arr2) / sizeof(int);
